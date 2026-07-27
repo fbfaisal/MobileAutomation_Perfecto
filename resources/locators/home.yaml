@@ -1,0 +1,15 @@
+home_title:
+  android: "accessibility_id=home_title"
+  ios: "accessibility_id=home_title"
+
+account_balance:
+  android: "id=com.example.mobile:id/account_balance"
+  ios: "accessibility_id=account_balance"
+
+accounts_menu:
+  android: "accessibility_id=accounts_menu"
+  ios: "accessibility_id=accounts_menu"
+
+logout_button:
+  android: "accessibility_id=logout_button"
+  ios: "accessibility_id=logout_button"

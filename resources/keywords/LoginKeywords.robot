@@ -1,13 +1,25 @@
 
 *** Settings ***
-Library    ../pages/LoginPage.py
-Library    ../../libraries/MobileLibrary.py
+Resource    ../pages/LoginPage.robot
+Resource    ../pages/HomePage.robot
+Resource    ../variables/global.robot
+
+
 *** Keywords ***
 
 Login To Application
-    Open Mobile Application
-    Enter Username    ${USERNAME}
-    Enter Password    ${PASSWORD}
-    Tap Login
+    [Arguments]    ${username}=${USERNAME}    ${password}=${PASSWORD}
+    Login Page Should Be Displayed
+    Enter Username On Login Page    ${username}
+    Enter Password On Login Page    ${password}
+    Tap Login Button
 
-Home Screen Should Be Displayed
+Login Should Be Successful
+    Home Page Should Be Displayed
+
+Login With Invalid Credentials
+    [Arguments]    ${username}    ${password}
+    Enter Username On Login Page    ${username}
+    Enter Password On Login Page    ${password}
+    Tap Login Button
+

@@ -1,0 +1,15 @@
+username_field:
+  android: "accessibility_id=username"
+  ios: "accessibility_id=username"
+
+password_field:
+  android: "accessibility_id=password"
+  ios: "accessibility_id=password"
+
+login_button:
+  android: "accessibility_id=login_button"
+  ios: "accessibility_id=login_button"
+
+error_message:
+  android: "id=com.example.mobile:id/error_message"
+  ios: "accessibility_id=login_error"

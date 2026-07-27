@@ -1,0 +1,19 @@
+from_account:
+  android: "accessibility_id=from_account"
+  ios: "accessibility_id=from_account"
+
+to_account:
+  android: "accessibility_id=to_account"
+  ios: "accessibility_id=to_account"
+
+amount_field:
+  android: "accessibility_id=transfer_amount"
+  ios: "accessibility_id=transfer_amount"
+
+continue_button:
+  android: "accessibility_id=continue_button"
+  ios: "accessibility_id=continue_button"
+
+confirmation_message:
+  android: "id=com.example.mobile:id/confirmation_message"
+  ios: "accessibility_id=confirmation_message"

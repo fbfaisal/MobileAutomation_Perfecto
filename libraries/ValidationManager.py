@@ -156,17 +156,18 @@ class ValidationManager:
             .get_application_config()
         )
 
-        if not self._has_value(
-            application.get("app_path")
-        ):
-            raise ValueError(
-                "Missing application configuration value: "
-                "app_path"
-            )
+        app_path = application.get("app_path")
 
-        self._validate_application_extension(
-            application.get("app_path")
-        )
+        # Skip application validation during framework development
+        # when no APK, AAB, IPA, or Perfecto application is available.
+        if not self._has_value(app_path):
+            print(
+                "Application path is not configured. "
+                "Skipping application validation."
+            )
+            return True
+
+        self._validate_application_extension(app_path)
 
         return True
 
