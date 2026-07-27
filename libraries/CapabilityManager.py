@@ -1,7 +1,7 @@
 from typing import Any
 
 from libraries.ConfigReader import ConfigReader
-from libraries.validationmanager import ValidationManager
+from libraries.ValidationManager import ValidationManager
 
 
 class CapabilityManager:

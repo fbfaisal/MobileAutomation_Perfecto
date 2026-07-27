@@ -1,7 +1,7 @@
 from pprint import pprint
 
 from libraries.ConfigReader import ConfigReader
-from libraries.validationmanager import ValidationManager
+from libraries.ValidationManager import ValidationManager
 
 
 config = ConfigReader()
