@@ -1,0 +1,9 @@
+
+applications:
+  selected:
+    name: "${APPLICATION}"
+    app_path: "${APP_PATH}"
+    package_name: "${APP_PACKAGE}"
+    activity_name: "${APP_ACTIVITY}"
+    bundle_id: "${BUNDLE_ID}"
+    version: "${APP_VERSION}"

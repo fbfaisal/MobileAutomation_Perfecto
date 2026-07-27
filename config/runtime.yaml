@@ -1,0 +1,6 @@
+runtime:
+  execution_provider: "${EXECUTION_PROVIDER}"
+  platform: "${PLATFORM}"
+  environment: "${ENVIRONMENT}"
+  application: "${APPLICATION}"
+  device: "${DEVICE}"

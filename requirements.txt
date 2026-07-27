@@ -1,0 +1,8 @@
+robotframework==7.2
+robotframework-appiumlibrary==3.0.0
+Appium-Python-Client==5.1.1
+selenium==4.26.0
+PyYAML==6.0.2
+requests==2.32.3
+openpyxl==3.1.5
+robotframework-pabot==2.18.0

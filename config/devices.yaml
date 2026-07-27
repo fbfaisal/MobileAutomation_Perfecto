@@ -1,0 +1,9 @@
+devices:
+  selected:
+    platform_name: "${PLATFORM_NAME}"
+    automation_name: "${AUTOMATION_NAME}"
+    device_name: "${DEVICE}"
+    model: "${DEVICE_MODEL}"
+    manufacturer: "${DEVICE_MANUFACTURER}"
+    platform_version: "${PLATFORM_VERSION}"
+    location: "${DEVICE_LOCATION}"

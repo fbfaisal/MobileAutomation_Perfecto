@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.14.6 on win32)" generated="2026-07-27T12:00:31.244937" rpa="false" schemaversion="5">
+<suite id="s1" name="FrameworkValidation" source="C:\Developement\RobotScript\MobileAutomation_2\tests\smoke\FrameworkValidation.robot">
+<test id="s1-t1" name="Framework Structure Validation" line="8">
+<kw name="Verify Mobile Session Is Closed" owner="CommonKeywords">
+<kw name="Mobile Session Should Not Be Active" owner="libraries.MobileLibrary">
+<doc>Fail if a mobile driver session is active.</doc>
+<status status="PASS" start="2026-07-27T12:00:31.427282" elapsed="0.000121"/>
+</kw>
+<status status="PASS" start="2026-07-27T12:00:31.426297" elapsed="0.001189"/>
+</kw>
+<status status="PASS" start="2026-07-27T12:00:31.425713" elapsed="0.002221"/>
+</test>
+<status status="PASS" start="2026-07-27T12:00:31.246705" elapsed="0.181615"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="FrameworkValidation" id="s1" pass="1" fail="0" skip="0">FrameworkValidation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

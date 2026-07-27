@@ -1,0 +1,13 @@
+perfecto:
+  cloud_name: "${PERFECTO_CLOUD_NAME}"
+  host: "${PERFECTO_HOST}"
+  security_token: "${PERFECTO_SECURITY_TOKEN}"
+
+  endpoint: "https://${PERFECTO_HOST}/nexperience/perfectomobile/wd/hub"
+
+  reporting:
+    project_name: "${PERFECTO_PROJECT_NAME}"
+    job_name: "${PERFECTO_JOB_NAME}"
+    job_number: "${PERFECTO_JOB_NUMBER}"
+    branch_name: "${BRANCH_NAME}"
+    tags: "${PERFECTO_TAGS}"

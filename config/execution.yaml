@@ -1,0 +1,8 @@
+execution:
+  local_appium_url: "${LOCAL_APPIUM_URL}"
+  parallel: "${EXECUTION_PARALLEL}"
+  timeout: "${EXECUTION_TIMEOUT}"
+  retry_count: "${RETRY_COUNT}"
+  report_format: "${REPORT_FORMAT}"
+  screenshot_on_failure: "${SCREENSHOT_ON_FAILURE}"
+  close_session_on_failure: "${CLOSE_SESSION_ON_FAILURE}"

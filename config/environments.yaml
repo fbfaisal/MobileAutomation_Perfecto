@@ -1,0 +1,7 @@
+environments:
+  selected:
+    name: "${ENVIRONMENT}"
+    base_url: "${BASE_URL}"
+    api_url: "${API_URL}"
+    username: "${TEST_USERNAME}"
+    password: "${TEST_PASSWORD}"

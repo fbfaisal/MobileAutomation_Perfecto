@@ -1,0 +1,6 @@
+logging:
+  level: "${LOG_LEVEL}"
+  console_enabled: "${LOG_CONSOLE_ENABLED}"
+  file_enabled: "${LOG_FILE_ENABLED}"
+  file_path: "${LOG_FILE_PATH}"
+  format: "${LOG_FORMAT}"
