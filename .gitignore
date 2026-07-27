@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+
+# IDE files
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Robot Framework generated reports
+log.html
+report.html
+output.xml
+
+# Logs
+logs/
+*.log
+
+# Generated report artifacts
+reports/*
+
+# Keep report folder structure
+!reports/.gitkeep
+!reports/robot/
+!reports/robot/.gitkeep
+!reports/screenshots/
+!reports/screenshots/.gitkeep
+!reports/logs/
+!reports/logs/.gitkeep
+
+# Environment and secret files
+.env
